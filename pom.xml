@@ -7,7 +7,7 @@
     <groupId>win.hgfdodo</groupId>
     <artifactId>thrift-client-ha</artifactId>
     <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <build>
         <plugins>
             <plugin>

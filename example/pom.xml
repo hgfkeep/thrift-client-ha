@@ -5,7 +5,7 @@
     <parent>
         <artifactId>thrift-client-ha</artifactId>
         <groupId>win.hgfdodo</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -27,7 +27,7 @@
         <dependency>
             <groupId>win.hgfdodo</groupId>
             <artifactId>core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
@@ -48,10 +48,8 @@
         <dependency>
             <groupId>win.hgfdodo</groupId>
             <artifactId>zk-server-provider</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
-
 </project>
