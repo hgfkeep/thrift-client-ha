@@ -1,0 +1,1 @@
+thrift -r --gen java  --out src/main/java ./src/main/resources/service.thrift
