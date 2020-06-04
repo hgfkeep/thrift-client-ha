@@ -8,6 +8,31 @@
     <artifactId>thrift-client-ha</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/hgfkeep/thrift-client-ha</url>
+        </repository>
+    </distributionManagement>
+
+    <developers>
+        <developer>
+            <name>heuguangfu</name>
+            <email>hgfkeep@gmail.com</email>
+        </developer>
+    </developers>
+
+    <url>http://hgfdodo.win</url>
+    <distributionManagement>
+        <repository>
+            <id>thrift-client-ha</id>
+            <name>thrift-client-ha</name>
+            <url>https://github.com/hgfkeep/thrift-client-ha</url>
+        </repository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
